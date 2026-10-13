@@ -47,6 +47,9 @@ TagManager:
   - name: Player
     uniqueID: 906274993
     locked: 0
+  - name: Enemies
+    uniqueID: 4026397179
+    locked: 0
   - name: Sea
     uniqueID: 3091366511
     locked: 0
