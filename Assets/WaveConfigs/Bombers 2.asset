@@ -10,13 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3865fddb1b75e844eb684703e649fc86, type: 3}
-  m_Name: Bombers
+  m_Name: Bombers 2
   m_EditorClassIdentifier: Assembly-CSharp::WaveConfigSO
   enemyPrefabs:
   - {fileID: 2929710013728038564, guid: 97b7710582f593549a06277ae75469ec, type: 3}
   - {fileID: 2929710013728038564, guid: 97b7710582f593549a06277ae75469ec, type: 3}
+  - {fileID: 2929710013728038564, guid: 97b7710582f593549a06277ae75469ec, type: 3}
+  - {fileID: 2929710013728038564, guid: 97b7710582f593549a06277ae75469ec, type: 3}
   pathPrefab: {fileID: 2946232651916263528, guid: a3744681dedd84f4ab0edfefa193fb49, type: 3}
-  enemyMoveSpeed: 2
-  enemySpawnInterval: 7.5
+  enemyMoveSpeed: 3
+  enemySpawnInterval: 5.5
   enemySpawnVariance: 0
   minSpawnTime: 0.2
