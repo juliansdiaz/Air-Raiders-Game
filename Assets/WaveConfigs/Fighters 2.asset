@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3865fddb1b75e844eb684703e649fc86, type: 3}
+  m_Name: Fighters 2
+  m_EditorClassIdentifier: Assembly-CSharp::WaveConfigSO
+  enemyPrefabs:
+  - {fileID: 655820695779049047, guid: 3a42a6da648f4dd478bea21993c9a976, type: 3}
+  - {fileID: 655820695779049047, guid: 3a42a6da648f4dd478bea21993c9a976, type: 3}
+  - {fileID: 655820695779049047, guid: 3a42a6da648f4dd478bea21993c9a976, type: 3}
+  - {fileID: 655820695779049047, guid: 3a42a6da648f4dd478bea21993c9a976, type: 3}
+  - {fileID: 655820695779049047, guid: 3a42a6da648f4dd478bea21993c9a976, type: 3}
+  - {fileID: 655820695779049047, guid: 3a42a6da648f4dd478bea21993c9a976, type: 3}
+  pathPrefab: {fileID: 7364369995484316776, guid: cd1b8ceec7b8cd04ba5c9e0c3736b90f, type: 3}
+  enemyMoveSpeed: 8
+  enemySpawnInterval: 1.5
+  enemySpawnVariance: 0
+  minSpawnTime: 0.2

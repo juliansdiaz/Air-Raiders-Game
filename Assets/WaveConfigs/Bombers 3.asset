@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3865fddb1b75e844eb684703e649fc86, type: 3}
+  m_Name: Bombers 3
+  m_EditorClassIdentifier: Assembly-CSharp::WaveConfigSO
+  enemyPrefabs:
+  - {fileID: 2929710013728038564, guid: 97b7710582f593549a06277ae75469ec, type: 3}
+  - {fileID: 2929710013728038564, guid: 97b7710582f593549a06277ae75469ec, type: 3}
+  - {fileID: 2929710013728038564, guid: 97b7710582f593549a06277ae75469ec, type: 3}
+  - {fileID: 2929710013728038564, guid: 97b7710582f593549a06277ae75469ec, type: 3}
+  - {fileID: 2929710013728038564, guid: 97b7710582f593549a06277ae75469ec, type: 3}
+  - {fileID: 2929710013728038564, guid: 97b7710582f593549a06277ae75469ec, type: 3}
+  - {fileID: 2929710013728038564, guid: 97b7710582f593549a06277ae75469ec, type: 3}
+  - {fileID: 2929710013728038564, guid: 97b7710582f593549a06277ae75469ec, type: 3}
+  - {fileID: 2929710013728038564, guid: 97b7710582f593549a06277ae75469ec, type: 3}
+  - {fileID: 2929710013728038564, guid: 97b7710582f593549a06277ae75469ec, type: 3}
+  - {fileID: 2929710013728038564, guid: 97b7710582f593549a06277ae75469ec, type: 3}
+  - {fileID: 2929710013728038564, guid: 97b7710582f593549a06277ae75469ec, type: 3}
+  - {fileID: 2929710013728038564, guid: 97b7710582f593549a06277ae75469ec, type: 3}
+  - {fileID: 2929710013728038564, guid: 97b7710582f593549a06277ae75469ec, type: 3}
+  - {fileID: 2929710013728038564, guid: 97b7710582f593549a06277ae75469ec, type: 3}
+  - {fileID: 2929710013728038564, guid: 97b7710582f593549a06277ae75469ec, type: 3}
+  pathPrefab: {fileID: 2946232651916263528, guid: a3744681dedd84f4ab0edfefa193fb49, type: 3}
+  enemyMoveSpeed: 5
+  enemySpawnInterval: 1
+  enemySpawnVariance: 0
+  minSpawnTime: 0.2
