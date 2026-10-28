@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8915238665921784671}
   - component: {fileID: 178768043316410720}
+  - component: {fileID: 7522964807599464099}
   - component: {fileID: 2967499793891160097}
   - component: {fileID: -8628964969614766965}
   m_Layer: 0
@@ -49,6 +50,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Pathfinding
   waveConfig: {fileID: 11400000, guid: 9dea7dee5f1324d479b748c4fc824224, type: 2}
+--- !u!114 &7522964807599464099
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 655820695779049047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee057b7e87ff1684288318ea7cd565e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::HealthManager
+  health: 30
+  scoreValue: 10
+  isPlayer: 0
 --- !u!61 &2967499793891160097
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -79,11 +95,11 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: -0.0016205311, y: 0.03727162}
+  m_Offset: {x: -0.03727162, y: 0.008102521}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -93,7 +109,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 0.34207523, y: 0.7698884}
+  m_Size: {x: 0.7698884, y: 0.1540967}
   m_EdgeRadius: 0
 --- !u!50 &-8628964969614766965
 Rigidbody2D:
@@ -148,7 +164,7 @@ Transform:
   m_GameObject: {fileID: 2175062164932823983}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -0.094, y: -0.363, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
